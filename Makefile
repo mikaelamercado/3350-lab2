@@ -5,4 +5,4 @@ donut: lab2.c
 
 .PHONY: clean
 clean: 
-	rm -rf a.out donut 2>
+	@rm -rf a.out donut 2>/dev/null
